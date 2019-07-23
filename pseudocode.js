@@ -1,5 +1,6 @@
 //Make API call to google books
-
+//Create book schema in mongoose
+//for books, author, image, summary, and link
 //create button onclick events that will trigger the api call
 parent.on(click, child, event => {
     //add attribute to button for each book and delete button
@@ -19,8 +20,13 @@ parent.on(click, child, event => {
 //     <inputname="author" />
 //   </div>
 //   <div>
-//     <input type="submit" value="Log In" />
+//     <input type="delete" value="Delete" />
 //   </div>
 // </form>
 
-//
+//When api is called, display book cover, author information, plot summary, and link
+//give user ability to save and delete books from database
+
+//deploy through heroku- unable to upload at the moment
+
+//tranfer app into react fully

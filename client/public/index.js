@@ -23,7 +23,7 @@ function App() {
             <inputname="author" />
         </div>
         <div>
-            <input type="submit" value="Log In" />
+            <input type="delete" value="Delete" />
         </div>
     </form>
 
